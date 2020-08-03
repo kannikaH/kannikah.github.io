@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<title>Kannika Henderson</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="images/Logo01.png" />
+<link rel="stylesheet" href="kh-Style.css">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/BG.jpg");
+  min-height: 100%;
+  background-repeat: repeat-y;
+}
+
+.kh-bar .kh-button {
+  padding: 16px;
+}
+
+span1{ font-family: Sofia;
+}
+span2{ font-family: Arbutus Slab;
+}
+</style>
+<body id="myPage">
+
+<!-- Navbar -->
+<div class="kh-top">
+  <div class="kh-bar kh-black kh-card">
+    <a class="kh-bar-item kh-button kh-padding-large kh-hide-medium kh-hide-large kh-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#home" class="kh-bar-item kh-button kh-padding-large">Home</a>
+    <a href="#about" class="kh-bar-item kh-button kh-padding-large kh-hide-small">About</a>
+    <a href="#experience" class="kh-bar-item kh-button kh-padding-large kh-hide-small">Experience</a>
+    <a href="#skills" class="kh-bar-item kh-button kh-padding-large kh-hide-small">Skills</a>
+    <a href="#contact" class="kh-bar-item kh-button kh-padding-large kh-hide-small">Contact</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="kh-bar-block kh-black kh-hide kh-hide-large kh-hide-medium kh-top" style="margin-top:46px">
+  <a href="#about" class="kh-bar-item kh-button kh-padding-large" onclick="myFunction()">About</a>
+  <a href="#experience" class="kh-bar-item kh-button kh-padding-large" onclick="myFunction()">Experience</a>
+  <a href="#skills" class="kh-bar-item kh-button kh-padding-large" onclick="myFunction()">Skills</a>
+  <a href="#contact" class="kh-bar-item kh-button kh-padding-large" onclick="myFunction()">Contact</a>
+
+</div>
+<header class="bgimg-1 kh-display-container kh-grayscale-min" id="home">
+  <div class="kh-display-right kh-text-white" style="padding:48px">
+    <span1 class="kh-jumbo kh-hide-small">Hi, I'm Kannika Henderson</span1><br>
+    <span1 class="kh-xxlarge kh-hide-large kh-hide-medium">Hi, I'm Kannika Henderson</span1><br>
+    <span2 class="kh-large">QA & Software Engineer bases on San Francisco, California USA.</span2>
+  </div> 
+</header>
+
+<!-- About Row -->
+<div class="kh-content kh-container kh-padding-64" id="about">
+  <h3 class="kh-center kh-text-teal"><u>ABOUT ME</u></h3>
+  <p class="kh-center">Welcome to my website. I am Kannika Henderson QA & Software engineer base on San Francisco Bay Area, My 10 years technical background started from full stack engineer since 2007. And my last position as Senior QA Engineer.I enjoy to working in diversity environment. My goal is achieve team's schedule and acquiring my knowledge skills in any position as I working for.</p>
+  <div class="kh-row">
+    <div class="kh-col m6 kh-center kh-padding-large">
+      
+      <img src="images/index01.jpg" class="kh-round kh-image kh-hover-opacity-off" width="190" height="103">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="kh-col m6 kh-hide-small">
+      <h5 class="kh-opacity"><i class="fa fa-graduation-cap kh-text-teal kh-xlarge" style="margin-right: 5%"></i><b>My Education</b></h5>
+      <table class="kh-table">
+      	<tr>
+      		<td><p>University :</p></td>
+      		<td><p>Rangsit University (Thailand)</p></td>
+      	</tr>
+      	<tr>
+      		<td><p>Major :</p></td>
+      		<td><p>Computer Engineering</p></td>
+      	</tr>
+      	<tr>
+      		<td><p>Year :</p></td>
+      		<td><p>2007</p></td>
+      	</tr>
+      </table>
+      <h5 class="kh-opacity"><i class="fa fa-globe kh-text-teal kh-xlarge" style="margin-right: 5%"></i><b>Language</b></h5>
+      <p style="margin-left: 5%">Thai, English</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Experience Row -->
+
+    <div class="kh-padding-64 kh-brown kh-col-m12"  id="experience">
+        <h2 class="kh-center kh-text-teal" style="margin-bottom:2%"><u>WORK EXPERIENCE</u></h2>
+        <div class="kh-container" style="margin-left: 15%">
+          <button class="tablinks kh-opacity kh-button kh-tag" onclick="openJobs(event, 'amz')"><i class="fa fa-briefcase fa-fw kh-margin-right"></i><b>FC Associate I / Amazon Prime Now</b></button>
+          <h6 class="kh-text-teal">Apr 2019 - Current <span style="margin-left: 5%">(San Francisco, USA)</span></h6>
+          <div id="amz" class="tabcontent">
+          	<p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Selecting good quality items and packaging them under the expected time before delivery.
+		  	<p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Communicating with Whole Food team member for item not found.</p>
+          </div>
+          <br>
+        </div>
+
+        <div class="kh-container" style="margin-left: 15%">
+        	<button class="tablinks kh-opacity kh-button kh-tag" onclick="openJobs(event, 'agoda')"><i class="fa fa-briefcase fa-fw kh-margin-right"></i><b>Senior QA Engineer / Agoda.com</b></button>
+           <h6 class="kh-text-teal"><i class="fa fa-calendar fa-fw kh-margin-right"></i>May 2016 - Oct 2017<span style="margin-left: 5%">(Bangkok, Thailand)</span></h6>
+           <div id="agoda" class="tabcontent">
+           	<p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Review requirements with scrum team and design test case for content API platform.</p>
+			<p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Create feature file for functional test to support CI system.</p>
+			<p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Implement A/B automated test and regression test with C#.</p>
+			<p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Integration test to ensure content API result works properly on the frontend.</p>
+			<p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Investigate issues and review bug description.</p>
+			<p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Successfully complete a series of sprint goals.</p>
+			<p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Communicate with different teams to find details and clarifications of use cases.</p>
+          	</div>
+       	 <br>
+       	</div>
+        
+        <div class="kh-container" style="margin-left: 15%">
+        	<button class="tablinks kh-opacity kh-button kh-tag" onclick="openJobs(event, 'bps')"><i class="fa fa-briefcase fa-fw kh-margin-right"></i><b>Developer / Bangkok Payment Solutions Company Limited</b></button>
+          	<h6 class="kh-text-teal"><i class="fa fa-calendar fa-fw kh-margin-right"></i>Oct 2013 - Apr 2016<span  style="margin-left: 5%">(Bangkok, Thailand)</span></h6>
+           <div id="bps" class="tabcontent">
+         	 <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Testing and provide SIT/UAT document for new version of full Touch Screen kiosk.</p>
+		  	<p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Performance tuning data for Kiosk Management System on SQL server.</p>
+		  	<p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Worked on UNIX/LINUX to generate data to test application.</p>
+		  	<p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Develop application on module Card Inventory Management with Java and Oracle database.</p>
+		  </div>
+		  <br>
+      </div>
+     
+      <div class="kh-container" style="margin-left: 15%">
+          <button class="tablinks kh-opacity kh-button kh-tag" onclick="openJobs(event, 'rnz')"><i class="fa fa-briefcase fa-fw kh-margin-right"></i><b>Software Engineer / Ringzero Networks Thailand</b></button>
+            <h6 class="kh-text-teal"><i class="fa fa-calendar fa-fw kh-margin-right"></i>Feb 2013 - Apr 2013<span  style="margin-left: 5%">(Bangkok, Thailand)</span></h6>
+            <div id="rnz" class="tabcontent">
+            <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Work on stored procedures for updated data structure and tuning by SQL server.</p>
+        <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>prepare data after converting spool file to database for populating data to template.</p>
+         </div>
+          <br>
+      </div>
+       <div class="kh-container" style="margin-left: 15%">
+          <button class="tablinks kh-opacity kh-button kh-tag" onclick="openJobs(event, 'opt')"><i class="fa fa-briefcase fa-fw kh-margin-right"></i><b>Senior Software Developer / Optimus Soft_G-ABLE</b></button>
+            <h6 class="kh-text-teal"><i class="fa fa-calendar fa-fw kh-margin-right"></i>Nov 2012 - Jan 2013<span  style="margin-left: 5%">(Bangkok, Thailand)</span></h6>
+           
+          <div id="opt" class="tabcontent">
+            <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Developed Banking management system by MVC 2.0 and Oracle Database.</p>
+            <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Debugging code for sending auto email for incomplete data from validation control.</p>
+            <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Unit testing for user management function.</p>
+          </div>
+          <br>
+      </div>
+
+       
+        <div class="kh-container" style="margin-left: 15%">
+          <button class="tablinks kh-opacity kh-button kh-tag" onclick="openJobs(event, 'neon')"><i class="fa fa-briefcase fa-fw kh-margin-right"></i><b>Application Engineer / Neon InfoTech South East Asia</b></button>
+          <h6 class="kh-text-teal"><i class="fa fa-calendar fa-fw kh-margin-right"></i>May 2012 - Oct 2012<span style="margin-left: 5%">(Rayong, Thailand)</span></h6>
+          <div id="neon" class="tabcontent">
+          <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Developed internal System & management database for marketing department by C#.NET and SQL server.</p>
+          <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Developed Auto Email Expiration date for marketing control.</p>
+		  <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Provide and support Smart Plan Software for oil & gas companies.</p>
+		  </div>
+          <br>
+    	</div>
+
+        <div class="kh-container" style="margin-left: 15%">
+        	<button class="tablinks kh-opacity kh-button kh-tag" onclick="openJobs(event, 'sony')"><i class="fa fa-briefcase fa-fw kh-margin-right"></i><b>Engineer2 / Sony Device Technology (Thailand)</b></button>
+          	<h6 class="kh-text-teal"><i class="fa fa-calendar fa-fw kh-margin-right"></i>Sep 2007 - Apr 2012<span  style="margin-left: 5%">(Pathum Thani, Thailand)</span></h6>
+            <div id="sony" class="tabcontent">
+            <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Full life cycle software engineer in the manufacturing production department.</p>
+		    <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Develop and implement web database to support manufacturing production with VB.NET.</p>
+		    <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Develop dynamic system chart to report management team with Dundas chart tool.</p>
+		    <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Prepare & manage database for user requirements (SQL coding on stored procedures).</p>
+		    <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Create/testing on unit test, functional test and UI test.</p>
+			</div>
+			<br>
+        </div>
+    </div>
+
+    <!-- Skills Row-->
+   <div class="kh-container kh-padding-64" id="skills">
+        <h2  class="kh-center kh-text-teal"><u>SKILLS</u></h2>
+        <div class="kh-quarter" style="margin-left: 15%">
+        	<h5 class="kh-opacity"><b>Personal Skills</b></h5>
+        	<p>PROBLEM SOLVING</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge kh-blue" style="width:90%">90%</div>
+          	</div>
+          	<p>FLEXIBILITY</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge kh-blue" style="width:95%">95%</div>
+          	</div>
+          	<p>AGILE ENVIRONMENT</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge kh-blue" style="width:85%">85%</div>
+          	</div>
+          	<p>WORKING COLLABORATIVELY</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge kh-blue" style="width:70%">70%</div>
+          	</div>
+          	<p>START-UP ENVIRONMENT</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge kh-blue" style="width:85%">85%</div>
+          	</div>
+           	<p>MOTIVATED</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge kh-blue" style="width:98%">98%</div>
+          	</div>
+          	<br>
+        </div>
+        <div class="kh-quarter" style="margin-left: 15%">
+         	<h5 class="kh-opacity"><b>Technical Skills</b></h5>
+        	<p>HTML</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge Kh-maroon" style="width:85%">85%</div>
+          	</div>
+          	<p>CSS</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge Kh-maroon" style="width:70%">70%</div>
+          	</div>
+          	<p>JAVASCRIPT</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge Kh-maroon" style="width:75%">75%</div>
+          	</div>
+          	<p>JAVA</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge Kh-maroon" style="width:50%">50%</div>
+          	</div>
+          	<p>C#</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge Kh-maroon" style="width:50%">50%</div>
+          	</div>
+           	<p>SQL Server</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge Kh-maroon" style="width:90%">90%</div>
+          	</div>
+          	<br>
+          	<p>Excel</p>
+          	<div class="kh-grey kh-round-xlarge kh-small">
+            	<div class="kh-container kh-center kh-round-xlarge Kh-maroon" style="width:80%">80%</div>
+          	</div>
+          	<br>
+        </div>
+    </div>
+<!-- Contact Container -->
+<div class="kh-container kh-theme-l1 kh-center kh-padding-64" id="contact">
+  <div class="kh-wide" >
+      <div><span class="kh-xlarge kh-border-teal kh-bottombar">Let's get in touch</span></div>
+      <p><i class="fa fa-map-marker kh-text-teal kh-xlarge"></i>  San Francisco, US</p>
+      <p><i class="fa fa-envelope-o kh-text-teal kh-xlarge"></i>  kanni-h@outlook.com</p>
+      <p><i class="fa fa-file kh-text-teal kh-xlarge"></i> <a href="Khenderson_Resume.pdf" target="_blank">My Resume</a></p>
+      
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="kh-container kh-theme-dark kh-center">
+  <h4>Follow</h4>
+  <a class="kh-button kh-large kh-teal"  href="https://github.com/kannikaH" target="_blank" title="github"><i class="fa fa-github"></i></a>
+  <a class="kh-button kh-large kh-teal kh-hide-small" href="https://www.linkedin.com/in/kannika-henderson-79b490145" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>Powered by Kannika Henderson</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="kh-tooltip kh-right">
+    <span class="kh-text kh-padding kh-teal kh-hide-small">Go To Top</span>   
+    <a class="kh-button kh-theme" href="#myPage"><span class="kh-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("kh-show") == -1) {
+    x.className += " kh-show";
+  } else { 
+    x.className = x.className.replace(" kh-show", "");
+  }
+}
+
+function openJobs(evt, exp) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  document.getElementById(exp).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</body>
+</html>
