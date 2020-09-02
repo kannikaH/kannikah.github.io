@@ -174,7 +174,7 @@ span2{ font-family: Arbutus Slab;
     	</div>
 
         <div class="kh-container" style="margin-left: 15%">
-        	<button class="tablinks kh-opacity kh-button kh-tag" onclick="openJobs(event, 'sony')"><i class="fa fa-briefcase fa-fw kh-margin-right"></i><b>Engineer2 / Sony Device Technology (Thailand)</b></button>
+        	<button class="tablinks kh-opacity kh-button kh-tag"  href="#sony" onclick="openJobs(event, 'sony')"><i class="fa fa-briefcase fa-fw kh-margin-right"></i><b>Engineer2 / Sony Device Technology (Thailand)</b></button>
           	<h6 class="kh-text-teal"><i class="fa fa-calendar fa-fw kh-margin-right"></i>Sep 2007 - Apr 2012<span  style="margin-left: 5%">(Pathum Thani, Thailand)</span></h6>
             <div id="sony" class="tabcontent">
             <p><i class="fa fa-caret-right" style="margin-right: 2%"></i>Full life cycle software engineer in the manufacturing production department.</p>
@@ -288,7 +288,7 @@ function myFunction() {
 }
 
 function openJobs(evt, exp) {
-  var i, tabcontent, tablinks;
+  var i, tabcontent;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
